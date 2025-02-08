@@ -1,14 +1,12 @@
 # Flight Cost Estimator
 
-This program calculates the total cost of a flight based on route selection, class choice, and baggage fees. It applies a tax rate and adjusts pricing dynamically according to user inputs.
+This helps you calculate the total cost of a flight based on your selected route, class, and baggage fees. It dynamically adjusts pricing according to your inputs, including tax calculations to provide an accurate total.
 
-- **Flight Route Selection**: Offers predefined routes with set base ticket prices.
-- **Class-Based Pricing**: Adjusts the ticket price based on Economy, Business, or First-Class selection.
-- **Baggage Fee Calculation**: Determines additional costs based on the number of checked bags.
-- **Tax Inclusion**: Applies a fixed tax rate to the final cost.
-- **User-Friendly Menu**: Provides clear flight and class options for easy selection.
+The way I coded this project was by setting up pre-defined routes with base ticket prices and implementing class-based pricing adjustments. When you select a flight class—Economy, Business, or First-Class—the ticket price updates accordingly. I also added a baggage fee calculation that determines additional costs based on the number of checked bags. To ensure accuracy, the project applies a fixed tax rate to the final total.
 
-## Example Usage
+I built this project since I wanted a way to quickly estimate flight costs without having to manually add up all the factors. It was a fun challenge to implement a structured pricing model while keeping the interface intuitive so you can easily compare different options. Hopefully this helps you get a better idea of how flight pricing works and makes cost estimation more convenient!
+
+## Example Output
 ```
 --- Flight Cost Estimator ---
 1. MIA to BCN - $250
